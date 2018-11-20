@@ -1,0 +1,135 @@
+html,body{
+	background-color:white;
+	background-size:100%;
+	opacity:1;
+	background-blend-mode: lighten;
+	
+}
+.redmsg{
+	color:red;
+}
+.greenmsg{
+	color:green;
+}
+
+ul {
+	width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+li {
+	width:20%;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #12B8F7;
+}
+table{
+	border: 2px solid black;
+	border-collapse:collapse;
+
+}
+td,th{
+	
+}
+table {
+  margin:1em auto;
+}
+td {
+  height:25px;
+  width:25px;
+  text-align:center;
+}
+td:first-child {
+  border-left:solid;
+}
+td:nth-child(3n) {
+  border-right:solid;
+}
+tr:first-child {
+  border-top:solid;
+}
+tr:nth-child(3n) td {
+  border-bottom:solid;
+}
+table tr:first-child td:first-child {
+    border-top-left-radius: 10px;
+}
+
+table tr:first-child td:last-child {
+    border-top-right-radius: 10px;
+}
+tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+.tab{
+	background:lightgreen;
+}
+.button{
+	background:lightred;
+}
+
+.fixed{
+	border: 2px solid black;
+	border-radius: 10px;
+    background: lightblue;
+    padding: 5px; 
+    width: 25px;
+    height: 25px;
+    color:#FF0000;
+    font-weight:bold;
+    text-align:center;
+}
+.notfixed{
+	border: 2px solid lightblue;
+	border-radius: 10px;
+    padding: 5px; 
+    width: 25px;
+    height: 25px;
+    background: #F5ECEC;
+    text-align:center;
+}
+button {
+	align:center;
+	padding:10px 10px;
+	width:8%;
+	height:100%;
+	border-radius:50px;
+	color:white;
+	background-color:grey;
+	border: 1px solid #075D7C;
+	font-size:15px 15px;
+}
+#submit{
+	
+}
+#save{
+	
+}
+#solve{
+	
+}
+input { 
+    text-align: center; 
+}
+@CHARSET "ISO-8859-1";

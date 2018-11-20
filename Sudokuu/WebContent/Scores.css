@@ -1,0 +1,122 @@
+html,body{
+	background-color:white;
+	background-size:100%;
+	opacity:1;
+	background-blend-mode: lighten;
+	
+}
+.redmsg{
+	color:red;
+}
+.greenmsg{
+	color:green;
+}
+
+ul {
+	width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+li {
+	width:20%;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #12B8F7;
+}
+table{
+	border-radius:20px;
+	width:70%;
+	border: none;
+	border-collapse:collapse;
+	margin:1em auto;
+}
+#tabs{
+	width:100%;
+}
+table th{
+	border-radius:5px;
+	border:none;
+	background-color:#777777;
+	color:white;
+	height:32px;
+}
+table {
+  
+}
+table td {
+	background-color:#f9f9f9;
+	color:#777777;
+	border:2px solid #777777;
+  	height:25px;
+  	width:25px;
+  	text-align:center;
+  	border-radius:5px;
+  	border:collapse;
+}
+
+#usrlvl{
+	
+	width:50%;
+	border-collapse:collapse;
+	border:none;
+}
+#usrlvl td{
+	border:none;
+	width:33%;
+}
+#usrlvl td,th{
+	border:none;
+}
+#data td{
+	
+}
+.tab{
+	background:lightgreen;
+}
+.button{
+	background:lightred;
+}
+
+.fixed{
+	border: 2px solid black;
+	border-radius: 10px;
+    background: darkslateblue;
+    padding: 5px; 
+    width: 25px;
+    height: 25px;
+}
+.notfixed{
+	font-weight: 900;
+	border: 2px solid white;
+	border-radius: 10px;
+    padding: 5px; 
+    width: 25px;
+    height: 25px;
+    background: lightblue;
+}
+.selected{
+	background-color:#CACACA;
+	font-weight:bolder;
+}
+input { 
+    text-align: center; 
+}
+
+@CHARSET "ISO-8859-1";
