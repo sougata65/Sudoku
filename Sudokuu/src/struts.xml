@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+
+<struts>
+
+<package name="default" extends="struts-default">
+	
+	<action name="login" class="com.sudokuu.struts.Login">
+		<result name="success">/login</result>
+	</action>
+	
+	<action name="signup" class="com.sudokuu.struts.Signup">
+		<result name="success">/signup</result>
+	</action>
+	
+	<action name="play" class="com.sudokuu.struts.Play">
+		<result name="success">/play</result>
+	</action>
+	
+	<action name="leaderboards" class="com.sudokuu.struts.Leaderboards">
+		<result name="success">/leaderboards</result>
+	</action>
+	
+	<action name="mygames" class="com.sudokuu.struts.MyGames">
+		<result name="success">/mygames</result>
+	</action>
+	
+	<action name="logout" class="com.sudokuu.struts.Logout">
+		<result name="success">/logout</result>
+	</action>
+	
+	<action name="creategame" class="com.sudokuu.struts.CreateGame">
+		<result name="success">/creategame</result>
+	</action>
+	
+</package>
+
+</struts>
